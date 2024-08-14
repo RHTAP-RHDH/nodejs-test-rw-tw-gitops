@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: nodejs-test-rw-gh-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/nodejs-test-rw-tw-gitops
